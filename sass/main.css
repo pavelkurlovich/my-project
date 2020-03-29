@@ -1,0 +1,398 @@
+.wrapper {
+  height: 980px;
+  background-image: url("../media/wr-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  height: 150px;
+}
+
+header .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.nav-container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-container nav li {
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+
+.nav-container nav a {
+  font-family: 'Montserratsmb';
+  font-size: 14px;
+  color: #000;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 20px;
+}
+
+.nav-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.nav-btn a {
+  font-family: 'Montserratb';
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+  background: #ef5b5b;
+  border-radius: 5px;
+  width: 150px;
+  height: 35px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wr-promo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wr-promo .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1170px;
+}
+
+.wr-promo .container h2 {
+  font-family: Segoe Script;
+  font-weight: 400;
+  font-size: 28px;
+  color: #ef5b5b;
+  margin-top: 165px;
+}
+
+.wr-promo .container h1 {
+  font-family: 'Montserratsmb';
+  font-size: 41px;
+  color: #000;
+  margin-top: 15px;
+}
+
+.wr-promo .container p {
+  font-family: 'Montserratreg';
+  font-size: 28px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.wr-promo .container .wr-promo-btn {
+  margin-top: 40px;
+}
+
+.wr-promo .container .wr-promo-btn a {
+  font-family: 'Montserratb';
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+  background: #ef5b5b;
+  border-radius: 5px;
+  width: 170px;
+  height: 50px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.feature-trip {
+  height: 560px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feature-trip .container {
+  width: 1170px;
+  position: relative;
+}
+
+.description {
+  width: 250px;
+  height: 310px;
+  margin-top: 80px;
+}
+
+.description h4 {
+  border-left: 3px solid #ef5b5b;
+  margin-top: 7px;
+  margin-left: -10px;
+  padding-left: 7px;
+}
+
+.description p {
+  margin-top: 30px;
+}
+
+.wr-promo-btn {
+  margin-top: 40px;
+}
+
+.wr-promo-btn a {
+  font-family: 'Montserratb';
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+  background: #ef5b5b;
+  border-radius: 5px;
+  width: 170px;
+  height: 50px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 520px;
+  position: absolute;
+  top: -120px;
+  left: 310px;
+}
+
+.tours .tour-service-card {
+  width: 370px;
+  height: 100%;
+  margin-left: 15px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.3);
+          box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.3);
+}
+
+.tours .tour-service-card img {
+  width: 370px;
+  height: 400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.tours .tour-service-card h5 {
+  font-family: 'Montserratsmb';
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.tours .tour-service-card p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #000;
+  padding: 17px;
+}
+
+.rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 2px solid #d6d6d6;
+}
+
+.rating p {
+  font-family: 'Poppinssmb';
+  font-size: 14px;
+}
+
+.rating .rating-stars {
+  width: 80px;
+  border: 1px solid red;
+  background-image: url(../media/half-star.png), url(../media/star.png);
+  background-repeat: no-repeat, repeat-x;
+  background-position: right, left;
+}
+
+.rating .rating-stars img {
+  width: 15px;
+  height: 15px;
+}
+
+.rating .tour-service-card-btn a {
+  font-family: 'Montserratreg';
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+  background: #ef5b5b;
+  border-radius: 4px;
+  width: 100px;
+  height: 25px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 15px;
+}
+
+.Convenience {
+  height: 1300px;
+  background-color: #f0efef;
+}
+
+.Convenience .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Convenience .container h3 {
+  margin-top: 150px;
+}
+
+.slider1 {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.slider1 .slide {
+  width: 370px;
+  height: 340px;
+  background-color: #fff;
+  border: 1px solid #cbcbcb;
+  margin-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider1 .slide img {
+  margin-top: 45px;
+}
+
+.slider1 .slide h4 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.slider1 .slide p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  background-color: #ef5b5b;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.merits {
+  margin-top: 65px;
+}
+
+.merits .merit {
+  width: 570px;
+  height: 165px;
+}
+
+.merits .merit h4 {
+  color: #58c2ff;
+}
+/*# sourceMappingURL=main.css.map */

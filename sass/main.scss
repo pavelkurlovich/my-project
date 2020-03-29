@@ -1,0 +1,1037 @@
+.wrapper {
+	height: 980px;
+	background-image: url("../media/wr-bg.jpg");
+	background-position: center;
+	background-size: cover;
+}
+header {
+	height: 150px;
+	.container {
+		height: 100%;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
+.nav-container {
+	display: flex;
+	height: 100%;
+	nav {
+		display: flex;
+		ul {
+			display: flex;				
+		}
+		li {
+			margin-left: 50px;
+			display: flex;
+			align-items: center;
+			text-transform: uppercase;	
+		}
+		a {
+			font-family: 'Montserratsmb';
+			font-size: 14px;
+			color: #000;
+		}
+	}
+	.fa, .fas {
+		margin-left: 4px;
+		color: #222;
+	}
+	.search {
+		display: flex;
+		align-items: center;
+		margin: 0 20px;
+	}
+}
+.wr-promo {
+	display: flex;
+	.container {
+		flex-direction: column;
+		width: 1170px;
+		h2 {
+			font-family: Segoe Script;
+			font-weight: 400;
+			font-size: 28px;
+			color: #ef5b5b;
+			margin-top: 165px;
+		}
+		h1 {
+			font-family: 'Montserratsmb';
+			font-size: 41px;
+			color: #000;
+			margin-top: 15px;
+		}
+		p {
+			font-family: 'Montserratreg';
+			font-size: 28px;
+			color: #000;
+			margin-top: 20px;
+		}
+	}
+}
+.wr-promo-btn {
+	margin-top: 40px;
+	.fa, .fas {
+		margin-left: 4px;
+	}
+}
+
+// feature-trip
+
+.feature-trip {
+	height: 560px;
+	display: flex;
+	.container {
+		width: 1170px;
+		position: relative;
+	}
+	.description {
+		width: 250px;
+		height: 310px;
+		margin-top: 80px;
+		h4 {
+			border-left: 3px solid #ef5b5b;
+			margin-top: 7px;
+			margin-left: -10px;
+			padding-left: 7px;
+		}
+		p {
+			margin-top: 30px;
+		}
+	}
+}
+.tours {
+	display: flex;
+	justify-content: space-between;
+	height: 520px;
+	position: absolute;
+	top: -120px;
+	left: 310px;
+	.tour-service-card {
+		width: 370px;
+		height: 100%;
+		margin-left: 15px;
+		border-radius: 10px;
+		box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.3);
+		img {
+			width: 370px;
+			height: 400px;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+		}
+		h5 {
+			text-align: center;
+			padding: 20px;
+		}
+		p {
+			display: flex;
+			justify-content: center;
+			color: #000;
+			padding: 17px;
+		}
+	}
+	.rating {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-top: 2px solid #d6d6d6;
+	}
+	.rating-left {
+		display: flex;
+		align-items: center;
+		p {
+			font-family: 'Poppinssmb';
+			font-size: 14px;
+			padding: 17px 8px 17px 16px;
+		}		
+	}
+	.rating-stars {
+		width: 85px;
+		height: 15px;
+		img {
+			width: 13px;
+			height: 13px;
+		}
+	}
+	.tour-service-card-btn a { 				  
+		font-family: 'Montserratreg';
+		font-size: 14px;
+		color: #ffffff;
+		cursor: pointer;
+		background:#ef5b5b;
+		border-radius: 4px;
+		width: 100px;
+		height: 25px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 15px;
+	}
+}
+
+// convenience
+
+.convenience {
+	min-height: 1300px;
+	background-color: #f0efef;
+	.container {
+		flex-direction: column;
+		align-items: center;
+		h3 {
+			margin-top: 150px;
+		}
+	}
+}
+.slider1 {
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+	width: 100%;
+	.slick-prev {
+		background-image: url(../media/arrow-left.png);
+		height: 28px;
+		width: 28px;
+		z-index: 10;
+		left: -5px;
+		&:before {
+			content: '';
+		}
+	}
+	.slick-next {
+		background-image: url(../media/arrow-right.png);
+		height: 28px;
+		width: 28px;
+		right: -36px;
+		&:before {
+			content: '';
+		}	
+	}
+	.slide {
+		width: 370px;
+		height: 340px;
+		background-color: #fff;
+		border: 1px solid #cbcbcb;
+		margin-left: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		img {
+			margin-top: 45px;
+			height: 60px;
+		}
+		h4 {
+			margin-top: 30px;
+			font-size: 24px;
+		}
+		p {
+			margin-top: 20px;
+			text-align: center;
+		}
+	}
+}
+.merits {
+	margin-top: 65px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	.merit {
+		width: 570px;
+		height: 165px;
+		padding: 25px;
+		background-color: #fff;
+		box-sizing: border-box;
+		margin-bottom: 30px;
+		box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.3);
+		h4 {
+		color: #58c2ff;
+		}
+		p {
+			margin-top: 25px;
+		}
+	}
+}
+
+// top-tour-packege
+
+.top-tour-packege {
+	height: 1515px;
+	background-image: url("../media/tour-packege-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	.container {
+		flex-direction: column;
+		align-items: center;
+		h3 {
+			margin-top: 250px;
+		}
+		h4 {
+			color: #fff;
+		}
+		h5 {
+			margin-top: 150px;
+		}
+		h6 {
+			margin-top: 140px;
+		}
+	}
+}
+.slider2 {
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	.slick-track {
+		left: -15px;
+	}
+	.slick-prev {
+		background-image: url(../media/arrow-left.png);
+		background-size: cover;
+		height: 45px;
+		width: 45px;
+		z-index: 10;
+		left: 18%;
+		&:before {
+			content: '';
+		}
+	}
+	.slick-next {
+		background-image: url(../media/arrow-right.png);
+		background-size: cover;
+		height: 45px;
+		width: 45px;
+		right: 18%;
+		&:before {
+			content: '';
+		}
+	}
+}
+.slide2 {
+	width: 370px;
+	height: 580px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+	img {
+		height: 370px;
+		width: 100%;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+	.main {
+		width: 100%;
+		height: 150px;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 2px solid #d6d6d6;
+		.left-part {
+			width: 73%;
+			span {
+				font-family: 'Montserratsmb';
+				font-size: 18px;
+				display: block;
+				margin-left: 15px;
+				margin-top: 30px;
+			}
+			p {
+				margin-left: 15px;
+				margin-top: 15px;
+			}
+		}
+		.right-part {
+			width: 27%;
+			text-align: right;
+			p {
+				color: #f06666;
+				margin-top: 17px;
+				margin-right: 14px;
+				text-decoration: line-through;
+			}
+			span {
+				font-family: 'Montserratb';
+				font-size: 22px;
+				color: #00b1ff;
+				margin-right: 14px;
+			}
+		}
+		.days {
+			margin-top: 25px;
+			margin-right: 14px;
+			p {
+				font-family: 'Montserratreg';
+				font-weight: 600;
+				font-size: 16px;
+				color: #000;
+				margin: 0;
+				text-decoration: none;
+			}
+		}
+	}
+	.rating {
+		display: flex;
+		justify-content: space-between;
+		margin-left: 15px;
+		margin-top: 16px;
+		.rating-left {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			max-width: 240px;
+			.rating-stars {
+				width: 75px;
+				height: 15px;
+				display: flex;
+				justify-content: space-between;
+				padding: 0 5px;
+				img {
+					width: 13px;
+					height: 13px;
+				}
+			}
+			p {
+				font-family: 'Poppinssmb';
+				font-size: 12px;
+				padding: 0;
+				color: #000;
+			}
+		}
+		.slider2-card-btn a { 				  
+			font-family: 'Montserratreg';
+			font-size: 14px;
+			color: #ffffff;
+			cursor: pointer;
+			background:#ef5b5b;
+			border-radius: 4px;
+			width: 100px;
+			height: 30px;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			margin-right: 15px;
+		}
+	}
+}
+.custome-packege {
+	margin-top: 70px;
+	form {
+		min-width: 1140px;
+		height: 70px;
+		border: 15px solid #a6b3b2;
+		display: flex;
+		justify-content: space-between;
+		input {
+			padding-left: 45px;
+			width: 285px;
+			font-family: 'Ralewaysmb';
+			font-size: 20px;
+			background-image: url(../media/custume-icon1.png);
+			background-repeat: no-repeat;
+			background-position: 20px;
+		}
+		select {
+			width: 20%;
+			padding-left: 50px;
+			border-left: 1px solid #a6b3b2;
+			font-family: 'Ralewaysmb';
+			font-size: 20px;
+			color: #808080;
+			background-image: url(../media/custume-icon2.png);
+			background-repeat: no-repeat;
+			background-position: 20px;
+		}
+		.book-now {
+			width: 150px;
+			height: 70px;
+			padding: 0;
+			margin: 0;
+			background-color: #ef5b5b;
+			color: #fff;
+			font-size: 16px;
+			text-transform: uppercase;
+			border: none;
+		}
+	}
+} 
+
+// tourist-place
+
+.tourist-place {
+	min-height: 1290px;
+	.container {
+		background-image: url(../media/shape.png);
+		background-position: top;
+		background-size: contain;
+		background-repeat: no-repeat;
+		flex-direction: column;
+		align-items: center;
+		margin-top: -38px;
+		h3 {
+			margin-top: 155px;
+		}
+		h4 {
+			margin-top: 15px;
+		}
+		p {
+			margin: 40px 225px 0px;
+			text-align: center;
+		}
+	}
+}
+.countries {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.country {
+	width: 580px;
+	height: 200px;
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-between;
+	.country-img {
+		height: 200px;
+		width: 200px;
+		background-color: #fff;
+		border: 1px solid #cbcbcb;
+		img {
+			display: block;
+			margin: 30px auto;
+		}
+	}
+	h4 {
+		font-size: 24px;
+	}
+}
+.country-proposals {
+		width: 350px;
+	ul {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		padding: 0;
+		li {
+			list-style: url(../media/dot.png);
+			margin: 0 17px;
+			line-height: 2;
+		}
+	}
+}
+
+// red-section
+
+.red-section {
+	height: 300px;
+	background-color: #ef5b5b;
+	.counters {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 120px;
+		width: 100%;
+	}
+	.counter {
+		display: flex;
+		justify-content: space-between;
+		img {
+			width: 50px;
+			height: 45px;
+			margin-top: 15px;
+		}
+	}
+	.main-part {
+		margin-left: 15px;
+		h6 {
+			font-size: 44px;
+		}
+		p {
+			color: #fff;
+		}
+	}
+}
+
+// testimonial
+
+.testimonial {
+	height: 2275px;
+	background-image: url("../media/testimonial-bg.jpg");
+	background-position: center;
+	background-size: cover;		
+	.video {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 870px;
+		align-items: center;
+		position: absolute;
+		cursor: pointer;
+		p {
+			font-size: 48px;
+			color: #fff;
+			margin-left: 30px;
+		}
+	}
+	.feedback {
+		margin: 1300px auto 0;
+		width: 500px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		h3 {
+			color: #222;
+		}
+		h4 {
+			color: #fff;
+		}
+		.slick-slider {
+			width: 500px;
+		}
+	}		
+}
+.slider3 {
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+	width: 430px;
+	.slick-prev {
+		background-image: url(../media/feedback-arrow-left.png);
+		background-size: cover;
+		height: 20px;
+		width: 20px;
+		z-index: 10;
+		left: -5%;
+		&:before {
+			content: '';
+		}
+	}
+	.slick-next {
+		background-image: url(../media/feedback-arrow-right.png);
+		background-size: cover;
+		height: 20px;
+		width: 20px;
+		right: -5%;
+		&:before {
+			content: '';
+		}
+	}
+	.slide3 {
+		max-width: 120px;
+		height: 120px;
+		margin-left: 15px;	
+		img {
+			width: 100%;
+			height: 100%;
+			border-radius: 20px;
+		}
+	}	
+}
+.feedback-form {
+	margin-top: 33px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 830px;
+	height: 285px;
+	border: 1px solid #97dcfb;
+	position: relative;
+	&:before {
+		content: '';
+		background-image: url(../media/feedback-arrow.jpg);
+		position: absolute;
+		width: 70px;
+		height: 36px;
+		top: -12%;
+		left: 46%;
+	}
+	img {
+		margin-top: 30px;
+	}
+	p {
+		font-family: 'Poppinsmed';
+		line-height: 2;
+		text-align: center;
+		color: #fff;
+		margin-top: 20px;
+	}
+	.form-with-raiting {
+		display: flex;
+		justify-content: space-between;
+		height: 55px;
+		width: 375px;
+		margin-top: 30px;
+		color: #fff;
+		.left-part {
+			p {
+				margin: 0;
+			}
+		}
+		img {
+			margin: 0;
+		}
+		.rating-stars {
+			margin-top: 7px;
+		}
+	}
+}
+
+// our-agency
+
+.our-agency {
+	min-height: 1700px;
+	.container {
+		flex-direction: column;
+		align-items: center;
+		h3 {
+			margin-top: 150px;
+		}
+		.latest-blog {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			margin-top: 100px;
+		}
+	}
+	.latest-blog-card {
+		width: 560px;
+		height: 220px;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+		img {
+			height: 100%;
+			width: 200px;
+			border-radius: 10px;
+		}
+	}		
+	p {
+		margin: 25px 0 0 15px;
+	}
+	span {
+		font-family: 'Montserratmed';
+		font-size: 20px;
+		color: #000;
+		display: block;
+		margin: 30px 0 0 15px;
+	}		
+	.card-footer {
+		display: flex;
+		justify-content: space-between;
+		margin: 25px 0 0 15px;
+		width: 280px;
+	}
+	.date, .time {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		img {
+			width: 15px;
+			height: 15px;
+		}
+		p {
+			font-family: 'Poppinsmed';
+			margin: 0 5px;
+		}
+	}
+	.our-agency-btn {
+		margin-top: 70px;
+	}
+}
+
+// our-agency .download
+
+.download {
+	margin-top: 200px;
+	display: flex;
+	justify-content: space-between;
+	img {
+		margin-left: -55px;
+	}
+	.official-apps {
+		width: 565px;
+		margin-left: 130px;
+		h6 {
+			color: #000;
+			margin-top: 195px;
+		}
+		p {
+			margin: 35px 0 0;
+		}
+	}
+	.download-footer {
+		width: 440px;
+		margin-top: 45px;
+		display: flex;
+		justify-content: space-between;
+		img {
+			margin: 0 15px 0 30px;
+		}
+		a {
+			width: 200px;
+			height: 55px;
+			border-radius: 10px;
+		}
+	}
+}
+
+// brend-section
+
+.brend-section {
+	height: 680px;
+	background-image: url("../media/brend-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	.container {
+		flex-direction: column;
+		align-items: center;
+	}
+	h3 {
+		margin-top: 195px;
+	}
+	h5 {
+		color: #fff;
+		font-size: 28px;
+		margin-top: 10px;
+	}
+	.brends {
+		margin-top: 80px;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+}
+
+// subscribe
+
+.subscribe {
+	min-height: 400px;
+	background-color: #dedfe0;
+	.container {
+		justify-content: space-between;
+		align-items: center;
+		height: 100%;
+	}
+	.description {
+		margin-top: 125px;
+		width: 550px;
+	}
+	h5 {
+		font-size: 28px;
+	}
+	p {
+		margin-top: 40px;
+		color: #9f9fa0;
+	}
+	form {
+		margin-top: 160px;
+		display: inherit;
+		width: 550px;
+		height: 80px;
+		input {
+			height: 100%;
+			width: 440px;
+			font-family: 'Poppinsmed';
+			font-size: 20px;
+			padding: 0 0 0 15px;
+			border: none;
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.50);
+			-webkit-box-shadow: 0px 0px 5px 0px rgba(14, 7, 7, 0.50);
+			-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.50);
+		}
+		.telegram {
+			width: 80px;
+			height: 81px;
+			padding: 0;
+			margin: 0 0 0 -3px;
+			background-color: #00b1ff;
+			background-image: url(../media/telegram.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			border: none;
+			box-shadow:none;
+			cursor: pointer;
+		}
+	}
+}
+
+// your-massage
+
+.your-message {
+	height: 720px;
+	.container {
+		flex-direction: column;
+		align-items: center;
+	}
+	h3 {
+		margin-top: 150px;
+	}
+	h5 {
+		font-size: 28px;
+	}
+	.forms {
+		margin-top: 80px;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.form1 {
+		display: flex;
+		flex-direction: column;
+	}
+	input {
+		font-family: 'Poppinsmed';
+		font-size: 18px;
+		width: 505px;
+		height: 75px;
+		margin-top: 20px;
+		border: 1px solid #808080;
+		border-radius: 8px;
+		padding-left: 40px;
+	}
+	.form2 {
+		display: flex;
+		flex-direction: column;
+		input {
+			height: 190px;
+		}
+		.sublimited {
+			align-self: flex-end;
+			width: 140px;
+			height: 50px;
+			color: #fff;
+			background-color: #ef5b5b;
+			border: none;
+			border-radius: 0;
+			padding: 0;
+			cursor: pointer;
+		}	
+	}
+}
+
+// footer
+
+footer {
+	min-height: 490px;
+	background-color: #f0efef;
+	.container {
+		justify-content: space-between;
+	}
+	.contacts {
+		margin-top: 100px;
+		width: 470px;
+		p {
+			margin: 30px 0 50px 0;
+		}
+		span {
+			display: block;
+			margin-bottom: 15px;
+			a {
+				color: #ef5b5b;
+			}
+		}
+		.fa, .fas {
+			margin-right: 15px;
+		}
+	}
+	.links {
+		margin-top: 100px;
+		width: 105px;
+		p {
+			font-family: 'Poppinsmed';
+			font-size: 20px;
+			color: #000;
+		}
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 35px 0 0 0;
+			li {
+				margin-top: 18px;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.socials {
+		margin-top: 100px;
+		width: 120px;
+		p {
+			font-family: 'Poppinsmed';
+			font-size: 20px;
+			color: #000;
+		}
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 35px 0 0 0;
+			li {
+				margin-top: 18px;
+			}
+		}
+		.fa, .fab {
+			color: #00b1ff;
+			margin-right: 10px;
+		}
+	}
+	.instagram {
+		margin-top: 100px;
+		width: 210px;
+		p {
+			font-family: 'Poppinsmed';
+			font-size: 20px;
+			color: #000;
+		}
+		.grid {
+			margin: 35px 0 0 0;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+			img {
+				height: 70px;
+				width: 70px;
+			}
+		}
+	}
+	form {
+		margin-top: 53px;
+		display: flex;
+		width: 200px;
+		height: 35px;
+		input {
+			height: 100%;
+			width: 155px;
+			font-family: 'Poppinsmed';
+			font-size: 14px;
+			padding: 0 0 0 15px;
+			border: none;
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+			box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.3);
+		}
+		.search {
+			width: 30px;
+			height: 35px;
+			padding: 0;
+			margin: 0 0 0 -3px;
+			background-color: #00b1ff;
+			background-image: url(../media/search.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			border: none;
+			border-top-left-radius: 0px;
+			border-bottom-left-radius: 0px;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+			box-shadow:none;
+			cursor: pointer;
+		}
+	}
+}
+.copyright {
+	background-color: #00b1ff;
+	text-align: center;
+	height: 50px;
+	p {
+		font-family: Myriad Pro;
+		font-weight: 400;
+		color: #fff;
+		padding: 13px;
+	}
+}

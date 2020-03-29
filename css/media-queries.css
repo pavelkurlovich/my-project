@@ -1,0 +1,303 @@
+@media screen and (max-width:1024px) {
+    .wrapper {
+        height: 870px;
+    }      
+    header {
+        height: 120px;
+    }
+	.container {
+		width: 768px;
+	}
+	.nav-container nav li {
+		 margin-left: 20px;			
+    }
+    .nav-container .search {
+        margin: 0 8px;
+    }
+    .wr-promo .container {
+        width: 768px;
+    }
+    .wr-promo .container h2 {
+        font-size: 30px;
+        margin-top: 80px; 
+    }
+    .wr-promo .container h1 {
+        font-size: 36px;
+        margin-top: 13px;
+    }
+    .wr-promo .container p {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .wr-promo-btn {
+        margin-top: 40px;
+    }
+    /* feature-trip */
+    .feature-trip {
+        height: 485px;
+    }
+    .feature-trip .container {
+        width: 768px;
+    }
+    .tours {
+        height: 445px;
+        position: absolute;
+        top: -120px;
+        left: 265px;
+    }
+    .tours .tour-service-card {
+        width: 305px;
+        height: 100%;
+        margin-left: 15px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.3);
+    }
+    .tours .tour-service-card img {
+        width: 305px;
+        height: 320px;
+    }
+    .tours .rating-stars img {
+        width: 13px;
+        height: 13px;
+    }
+    .tours .tour-service-card h5 {
+        padding: 17px;
+    }
+    /* convenience */
+    .convenience .container h3 {
+        margin-top: 100px;
+        font-size: 18px;
+    }
+    .convenience .container h4 {
+        font-size: 20px;
+    }
+    .slider1 .slide {
+        height: 250px;
+    }
+    .slider1 .slide img {
+        height: 50px;
+    }
+    .slider1 .slide h4 {
+        font-size: 20px;
+    }
+    .slider1 .slide p {
+        font-size: 10px;
+    }
+    /* merits */
+    .merits {
+        display: block;
+        margin-top: 45px;
+        align-items: center;
+    }
+    .merits .merit {
+        width: 510px;
+        text-align: center;
+    }
+    /* top-tour-packege */
+    .top-tour-packege .container h3 {
+        margin-top: 150px;
+        font-size: 20px;
+    }
+    .top-tour-packege .container h4 {
+        font-size: 24px;
+    }
+    .slide2 {
+        height: 350px;
+        margin-left: 20px;
+    }
+    .slide2 img {
+        height: 205px;
+    }
+    .slide2 .main .left-part span {
+        font-size: 14px;
+        margin-left: 7px;
+        margin-top: 10px;
+    }
+    .slide2 .main .left-part p {
+        margin-left: 7px;
+        margin-top: 4px;
+        font-size: 10px;
+    }
+    .slide2 .main .right-part p {
+        margin-top: 4px;
+        margin-right: 3px;
+        font-size: 10px;
+    }
+    .slide2 .main .right-part span {
+        font-size: 14px;
+        margin-right: 3px;
+    }
+    .slide2 .main {
+        height: 105px;
+    }
+    .slide2 .main .days {
+        margin-top: 7px;
+        margin-right: 3px;
+    }
+    .slide2 .rating {
+        margin-left: 6px;
+        margin-top: 5px;
+    }
+    .slide2 .rating .rating-left p {
+        font-size: 7px;
+    }
+    .slide2 .rating .rating-left .rating-stars {
+        width: 45px;
+        height: 8px;
+    }
+    .slide2 .rating .rating-left .rating-stars img {
+        width: 8px;
+        height: 8px;
+    }
+    .slide2 .rating .slider2-card-btn a {
+        font-size: 8px;
+        width: 50px;
+        height: 18px;
+        margin-right: 4px;
+    }
+    .slider2 .slick-next, .slider2 .slick-prev {
+        height: 25px;
+        width: 25px;
+    }
+    /* top-tour-packege */
+    .top-tour-packege {
+        height: 1075px;
+    }
+    .top-tour-packege .container h6 {
+        margin-top: 90px;
+        font-size: 20px;
+    }
+    .custome-packege form {
+        min-width: 770px;
+        height: 60px;
+    }
+    .custome-packege form .book-now {
+        width: 120px;
+        height: 60px;
+        font-size: 13px;
+    }
+    .custome-packege form input {
+        padding-left: 35px;
+        width: 265px;
+        font-size: 13px;
+    }
+    .custome-packege form select {
+        padding-left: 50px;
+        font-size: 13px;
+    }
+    /* tourist-place */
+    .tourist-place .container h3 {
+        margin-top: 90px;
+        font-size: 20px;
+    }
+    .tourist-place .container h4 {
+        margin-top: 6px;
+        font-size: 20px;
+    }
+    .tourist-place .container p {
+    margin: 25px 155px 0px;
+    font-size: 14px;
+    }
+    .countries {
+        margin-top: 0px;
+        display: block;
+    }
+    .country {
+        margin-top: 30px;
+    }
+    /* red-section */
+    .red-section {
+        height: 250px;
+        margin-top: 20px;
+    }
+    .red-section .counters {
+        margin-top: 90px;
+    }
+    .red-section .main-part h6 {
+        font-size: 30px;
+    }
+    .red-section .counter img {
+        width: 38px;
+        height: 35px;
+    }
+    /* testimonial */
+    .testimonial {
+        height: 1200px;
+    }
+    .testimonial .video {
+        margin-top: 490px;
+    }
+    .testimonial .video p {
+        font-size: 35px;
+    }
+    .testimonial .feedback {
+        margin-top: 685px;
+    }
+    .testimonial .feedback h3 {
+        font-size: 20px;
+    }
+    .testimonial .feedback h4 {
+        font-size: 20px;
+    }
+    .testimonial .feedback .slick-slider {
+        width: 325px;
+    }
+    .slider3 {
+        margin-top: 30px;
+    }
+    .slider3 .slide3 {
+        max-width: 70px;
+        height: 70px;
+    }
+    .feedback-form {
+        margin-top: 38px;
+        width: 565px;
+        height: 154px;
+    }
+    .feedback-form:before {
+        top: -23%;
+    }
+    .feedback-form img {
+        margin-top: 15px;
+        height: 25px;
+        width: 25px;
+    }
+    .feedback-form p {
+        line-height: 1.5;
+        font-size: 13px;
+        margin-top: 8px;
+    }
+    .feedback-form .form-with-raiting img {
+        height: 30px;
+        width: 20px;
+    }
+    .feedback-form .form-with-raiting {
+        margin-top: 10px;
+    }
+    .feedback-form .form-with-raiting h5 {
+        font-family: 'Montserratsmb';
+        font-size: 16px;
+    }
+    .feedback-form .form-with-raiting .right-part img {
+        height: 10px;
+        width: 10px;
+    }
+    .feedback-form .form-with-raiting .rating-stars {
+        margin-top: 0px;
+    }
+    /* our-agency */
+    .our-agency .container h3 {
+        margin-top: 75px;
+        font-size: 20px;
+    }
+    .our-agency .container h4 {
+        font-size: 20px;
+    }
+    .our-agency .container .latest-blog {
+        margin-top: 60px;
+    }
+    .our-agency .container .latest-blog {
+        display: block;
+    }
+
+}

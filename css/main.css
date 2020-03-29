@@ -1,0 +1,1029 @@
+.wrapper {
+  height: 980px;
+  background-image: url("../media/wr-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  height: 150px;
+}
+header .container {
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-container {
+  display: flex;
+  height: 100%;
+}
+.nav-container nav {
+  display: flex;
+}
+.nav-container nav ul {
+  display: flex;
+}
+.nav-container nav li {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.nav-container nav a {
+  font-family: "Montserratsmb";
+  font-size: 14px;
+  color: #000;
+}
+.nav-container .fa, .nav-container .fas {
+  margin-left: 4px;
+  color: #222;
+}
+.nav-container .search {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.wr-promo {
+  display: flex;
+}
+.wr-promo .container {
+  flex-direction: column;
+  width: 1170px;
+}
+.wr-promo .container h2 {
+  font-family: Segoe Script;
+  font-weight: 400;
+  font-size: 28px;
+  color: #ef5b5b;
+  margin-top: 165px;
+}
+.wr-promo .container h1 {
+  font-family: "Montserratsmb";
+  font-size: 41px;
+  color: #000;
+  margin-top: 15px;
+}
+.wr-promo .container p {
+  font-family: "Montserratreg";
+  font-size: 28px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.wr-promo-btn {
+  margin-top: 40px;
+}
+.wr-promo-btn .fa, .wr-promo-btn .fas {
+  margin-left: 4px;
+}
+
+.feature-trip {
+  height: 560px;
+  display: flex;
+}
+.feature-trip .container {
+  width: 1170px;
+  position: relative;
+}
+.feature-trip .description {
+  width: 250px;
+  height: 310px;
+  margin-top: 80px;
+}
+.feature-trip .description h4 {
+  border-left: 3px solid #ef5b5b;
+  margin-top: 7px;
+  margin-left: -10px;
+  padding-left: 7px;
+}
+.feature-trip .description p {
+  margin-top: 30px;
+}
+
+.tours {
+  display: flex;
+  justify-content: space-between;
+  height: 520px;
+  position: absolute;
+  top: -120px;
+  left: 310px;
+}
+.tours .tour-service-card {
+  width: 370px;
+  height: 100%;
+  margin-left: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.3);
+}
+.tours .tour-service-card img {
+  width: 370px;
+  height: 400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.tours .tour-service-card h5 {
+  text-align: center;
+  padding: 20px;
+}
+.tours .tour-service-card p {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  padding: 17px;
+}
+.tours .rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #d6d6d6;
+}
+.tours .rating-left {
+  display: flex;
+  align-items: center;
+}
+.tours .rating-left p {
+  font-family: "Poppinssmb";
+  font-size: 14px;
+  padding: 17px 8px 17px 16px;
+}
+.tours .rating-stars {
+  width: 85px;
+  height: 15px;
+}
+.tours .rating-stars img {
+  width: 13px;
+  height: 13px;
+}
+.tours .tour-service-card-btn a {
+  font-family: "Montserratreg";
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+  background: #ef5b5b;
+  border-radius: 4px;
+  width: 100px;
+  height: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.convenience {
+  min-height: 1300px;
+  background-color: #f0efef;
+}
+.convenience .container {
+  flex-direction: column;
+  align-items: center;
+}
+.convenience .container h3 {
+  margin-top: 150px;
+}
+
+.slider1 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  width: 100%;
+}
+.slider1 .slick-prev {
+  background-image: url(../media/arrow-left.png);
+  height: 28px;
+  width: 28px;
+  z-index: 10;
+  left: -5px;
+}
+.slider1 .slick-prev:before {
+  content: "";
+}
+.slider1 .slick-next {
+  background-image: url(../media/arrow-right.png);
+  height: 28px;
+  width: 28px;
+  right: -36px;
+}
+.slider1 .slick-next:before {
+  content: "";
+}
+.slider1 .slide {
+  width: 370px;
+  height: 340px;
+  background-color: #fff;
+  border: 1px solid #cbcbcb;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider1 .slide img {
+  margin-top: 45px;
+  height: 60px;
+}
+.slider1 .slide h4 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+.slider1 .slide p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.merits {
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.merits .merit {
+  width: 570px;
+  height: 165px;
+  padding: 25px;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.3);
+}
+.merits .merit h4 {
+  color: #58c2ff;
+}
+.merits .merit p {
+  margin-top: 25px;
+}
+
+.top-tour-packege {
+  height: 1515px;
+  background-image: url("../media/tour-packege-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.top-tour-packege .container {
+  flex-direction: column;
+  align-items: center;
+}
+.top-tour-packege .container h3 {
+  margin-top: 250px;
+}
+.top-tour-packege .container h4 {
+  color: #fff;
+}
+.top-tour-packege .container h5 {
+  margin-top: 150px;
+}
+.top-tour-packege .container h6 {
+  margin-top: 140px;
+}
+
+.slider2 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.slider2 .slick-track {
+  left: -15px;
+}
+.slider2 .slick-prev {
+  background-image: url(../media/arrow-left.png);
+  background-size: cover;
+  height: 45px;
+  width: 45px;
+  z-index: 10;
+  left: 18%;
+}
+.slider2 .slick-prev:before {
+  content: "";
+}
+.slider2 .slick-next {
+  background-image: url(../media/arrow-right.png);
+  background-size: cover;
+  height: 45px;
+  width: 45px;
+  right: 18%;
+}
+.slider2 .slick-next:before {
+  content: "";
+}
+
+.slide2 {
+  width: 370px;
+  height: 580px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.slide2 img {
+  height: 370px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.slide2 .main {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #d6d6d6;
+}
+.slide2 .main .left-part {
+  width: 73%;
+}
+.slide2 .main .left-part span {
+  font-family: "Montserratsmb";
+  font-size: 18px;
+  display: block;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.slide2 .main .left-part p {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.slide2 .main .right-part {
+  width: 27%;
+  text-align: right;
+}
+.slide2 .main .right-part p {
+  color: #f06666;
+  margin-top: 17px;
+  margin-right: 14px;
+  text-decoration: line-through;
+}
+.slide2 .main .right-part span {
+  font-family: "Montserratb";
+  font-size: 22px;
+  color: #00b1ff;
+  margin-right: 14px;
+}
+.slide2 .main .days {
+  margin-top: 25px;
+  margin-right: 14px;
+}
+.slide2 .main .days p {
+  font-family: "Montserratreg";
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+  margin: 0;
+  text-decoration: none;
+}
+.slide2 .rating {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-top: 16px;
+}
+.slide2 .rating .rating-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 240px;
+}
+.slide2 .rating .rating-left .rating-stars {
+  width: 75px;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+.slide2 .rating .rating-left .rating-stars img {
+  width: 13px;
+  height: 13px;
+}
+.slide2 .rating .rating-left p {
+  font-family: "Poppinssmb";
+  font-size: 12px;
+  padding: 0;
+  color: #000;
+}
+.slide2 .rating .slider2-card-btn a {
+  font-family: "Montserratreg";
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+  background: #ef5b5b;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.custome-packege {
+  margin-top: 70px;
+}
+.custome-packege form {
+  min-width: 1140px;
+  height: 70px;
+  border: 15px solid #a6b3b2;
+  display: flex;
+  justify-content: space-between;
+}
+.custome-packege form input {
+  padding-left: 45px;
+  width: 285px;
+  font-family: "Ralewaysmb";
+  font-size: 20px;
+  background-image: url(../media/custume-icon1.png);
+  background-repeat: no-repeat;
+  background-position: 20px;
+}
+.custome-packege form select {
+  width: 20%;
+  padding-left: 50px;
+  border-left: 1px solid #a6b3b2;
+  font-family: "Ralewaysmb";
+  font-size: 20px;
+  color: #808080;
+  background-image: url(../media/custume-icon2.png);
+  background-repeat: no-repeat;
+  background-position: 20px;
+}
+.custome-packege form .book-now {
+  width: 150px;
+  height: 70px;
+  padding: 0;
+  margin: 0;
+  background-color: #ef5b5b;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.tourist-place {
+  min-height: 1290px;
+}
+.tourist-place .container {
+  background-image: url(../media/shape.png);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -38px;
+}
+.tourist-place .container h3 {
+  margin-top: 155px;
+}
+.tourist-place .container h4 {
+  margin-top: 15px;
+}
+.tourist-place .container p {
+  margin: 40px 225px 0px;
+  text-align: center;
+}
+
+.countries {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.country {
+  width: 580px;
+  height: 200px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.country .country-img {
+  height: 200px;
+  width: 200px;
+  background-color: #fff;
+  border: 1px solid #cbcbcb;
+}
+.country .country-img img {
+  display: block;
+  margin: 30px auto;
+}
+.country h4 {
+  font-size: 24px;
+}
+
+.country-proposals {
+  width: 350px;
+}
+.country-proposals ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.country-proposals ul li {
+  list-style: url(../media/dot.png);
+  margin: 0 17px;
+  line-height: 2;
+}
+
+.red-section {
+  height: 300px;
+  background-color: #ef5b5b;
+}
+.red-section .counters {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  width: 100%;
+}
+.red-section .counter {
+  display: flex;
+  justify-content: space-between;
+}
+.red-section .counter img {
+  width: 50px;
+  height: 45px;
+  margin-top: 15px;
+}
+.red-section .main-part {
+  margin-left: 15px;
+}
+.red-section .main-part h6 {
+  font-size: 44px;
+}
+.red-section .main-part p {
+  color: #fff;
+}
+
+.testimonial {
+  height: 2275px;
+  background-image: url("../media/testimonial-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.testimonial .video {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 870px;
+  align-items: center;
+  position: absolute;
+  cursor: pointer;
+}
+.testimonial .video p {
+  font-size: 48px;
+  color: #fff;
+  margin-left: 30px;
+}
+.testimonial .feedback {
+  margin: 1300px auto 0;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonial .feedback h3 {
+  color: #222;
+}
+.testimonial .feedback h4 {
+  color: #fff;
+}
+.testimonial .feedback .slick-slider {
+  width: 500px;
+}
+
+.slider3 {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  width: 430px;
+}
+.slider3 .slick-prev {
+  background-image: url(../media/feedback-arrow-left.png);
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  z-index: 10;
+  left: -5%;
+}
+.slider3 .slick-prev:before {
+  content: "";
+}
+.slider3 .slick-next {
+  background-image: url(../media/feedback-arrow-right.png);
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  right: -5%;
+}
+.slider3 .slick-next:before {
+  content: "";
+}
+.slider3 .slide3 {
+  max-width: 120px;
+  height: 120px;
+  margin-left: 15px;
+}
+.slider3 .slide3 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.feedback-form {
+  margin-top: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 830px;
+  height: 285px;
+  border: 1px solid #97dcfb;
+  position: relative;
+}
+.feedback-form:before {
+  content: "";
+  background-image: url(../media/feedback-arrow.jpg);
+  position: absolute;
+  width: 70px;
+  height: 36px;
+  top: -12%;
+  left: 46%;
+}
+.feedback-form img {
+  margin-top: 30px;
+}
+.feedback-form p {
+  font-family: "Poppinsmed";
+  line-height: 2;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+.feedback-form .form-with-raiting {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  width: 375px;
+  margin-top: 30px;
+  color: #fff;
+}
+.feedback-form .form-with-raiting .left-part p {
+  margin: 0;
+}
+.feedback-form .form-with-raiting img {
+  margin: 0;
+}
+.feedback-form .form-with-raiting .rating-stars {
+  margin-top: 7px;
+}
+
+.our-agency {
+  min-height: 1700px;
+}
+.our-agency .container {
+  flex-direction: column;
+  align-items: center;
+}
+.our-agency .container h3 {
+  margin-top: 150px;
+}
+.our-agency .container .latest-blog {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.our-agency .latest-blog-card {
+  width: 560px;
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.our-agency .latest-blog-card img {
+  height: 100%;
+  width: 200px;
+  border-radius: 10px;
+}
+.our-agency p {
+  margin: 25px 0 0 15px;
+}
+.our-agency span {
+  font-family: "Montserratmed";
+  font-size: 20px;
+  color: #000;
+  display: block;
+  margin: 30px 0 0 15px;
+}
+.our-agency .card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0 0 15px;
+  width: 280px;
+}
+.our-agency .date, .our-agency .time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-agency .date img, .our-agency .time img {
+  width: 15px;
+  height: 15px;
+}
+.our-agency .date p, .our-agency .time p {
+  font-family: "Poppinsmed";
+  margin: 0 5px;
+}
+.our-agency .our-agency-btn {
+  margin-top: 70px;
+}
+
+.download {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.download img {
+  margin-left: -55px;
+}
+.download .official-apps {
+  width: 565px;
+  margin-left: 130px;
+}
+.download .official-apps h6 {
+  color: #000;
+  margin-top: 195px;
+}
+.download .official-apps p {
+  margin: 35px 0 0;
+}
+.download .download-footer {
+  width: 440px;
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.download .download-footer img {
+  margin: 0 15px 0 30px;
+}
+.download .download-footer a {
+  width: 200px;
+  height: 55px;
+  border-radius: 10px;
+}
+
+.brend-section {
+  height: 680px;
+  background-image: url("../media/brend-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.brend-section .container {
+  flex-direction: column;
+  align-items: center;
+}
+.brend-section h3 {
+  margin-top: 195px;
+}
+.brend-section h5 {
+  color: #fff;
+  font-size: 28px;
+  margin-top: 10px;
+}
+.brend-section .brends {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.subscribe {
+  min-height: 400px;
+  background-color: #dedfe0;
+}
+.subscribe .container {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.subscribe .description {
+  margin-top: 125px;
+  width: 550px;
+}
+.subscribe h5 {
+  font-size: 28px;
+}
+.subscribe p {
+  margin-top: 40px;
+  color: #9f9fa0;
+}
+.subscribe form {
+  margin-top: 160px;
+  display: inherit;
+  width: 550px;
+  height: 80px;
+}
+.subscribe form input {
+  height: 100%;
+  width: 440px;
+  font-family: "Poppinsmed";
+  font-size: 20px;
+  padding: 0 0 0 15px;
+  border: none;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(14, 7, 7, 0.5);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.subscribe form .telegram {
+  width: 80px;
+  height: 81px;
+  padding: 0;
+  margin: 0 0 0 -3px;
+  background-color: #00b1ff;
+  background-image: url(../media/telegram.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.your-message {
+  height: 720px;
+}
+.your-message .container {
+  flex-direction: column;
+  align-items: center;
+}
+.your-message h3 {
+  margin-top: 150px;
+}
+.your-message h5 {
+  font-size: 28px;
+}
+.your-message .forms {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.your-message .form1 {
+  display: flex;
+  flex-direction: column;
+}
+.your-message input {
+  font-family: "Poppinsmed";
+  font-size: 18px;
+  width: 505px;
+  height: 75px;
+  margin-top: 20px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding-left: 40px;
+}
+.your-message .form2 {
+  display: flex;
+  flex-direction: column;
+}
+.your-message .form2 input {
+  height: 190px;
+}
+.your-message .form2 .sublimited {
+  align-self: flex-end;
+  width: 140px;
+  height: 50px;
+  color: #fff;
+  background-color: #ef5b5b;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+footer {
+  min-height: 490px;
+  background-color: #f0efef;
+}
+footer .container {
+  justify-content: space-between;
+}
+footer .contacts {
+  margin-top: 100px;
+  width: 470px;
+}
+footer .contacts p {
+  margin: 30px 0 50px 0;
+}
+footer .contacts span {
+  display: block;
+  margin-bottom: 15px;
+}
+footer .contacts span a {
+  color: #ef5b5b;
+}
+footer .contacts .fa, footer .contacts .fas {
+  margin-right: 15px;
+}
+footer .links {
+  margin-top: 100px;
+  width: 105px;
+}
+footer .links p {
+  font-family: "Poppinsmed";
+  font-size: 20px;
+  color: #000;
+}
+footer .links ul {
+  list-style: none;
+  padding: 0;
+  margin: 35px 0 0 0;
+}
+footer .links ul li {
+  margin-top: 18px;
+  text-transform: uppercase;
+}
+footer .socials {
+  margin-top: 100px;
+  width: 120px;
+}
+footer .socials p {
+  font-family: "Poppinsmed";
+  font-size: 20px;
+  color: #000;
+}
+footer .socials ul {
+  list-style: none;
+  padding: 0;
+  margin: 35px 0 0 0;
+}
+footer .socials ul li {
+  margin-top: 18px;
+}
+footer .socials .fa, footer .socials .fab {
+  color: #00b1ff;
+  margin-right: 10px;
+}
+footer .instagram {
+  margin-top: 100px;
+  width: 210px;
+}
+footer .instagram p {
+  font-family: "Poppinsmed";
+  font-size: 20px;
+  color: #000;
+}
+footer .instagram .grid {
+  margin: 35px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+footer .instagram .grid img {
+  height: 70px;
+  width: 70px;
+}
+footer form {
+  margin-top: 53px;
+  display: flex;
+  width: 200px;
+  height: 35px;
+}
+footer form input {
+  height: 100%;
+  width: 155px;
+  font-family: "Poppinsmed";
+  font-size: 14px;
+  padding: 0 0 0 15px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.3);
+}
+footer form .search {
+  width: 30px;
+  height: 35px;
+  padding: 0;
+  margin: 0 0 0 -3px;
+  background-color: #00b1ff;
+  background-image: url(../media/search.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.copyright {
+  background-color: #00b1ff;
+  text-align: center;
+  height: 50px;
+}
+.copyright p {
+  font-family: Myriad Pro;
+  font-weight: 400;
+  color: #fff;
+  padding: 13px;
+}
+
+/*# sourceMappingURL=main.css.map */

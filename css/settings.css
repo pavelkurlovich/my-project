@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'Montserratreg';
+	src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+	font-family: 'Montserratmed';
+	src: url('../fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+	font-family: 'Montserratsmb';
+	src: url('../fonts/Montserrat-SemiBold.ttf');
+}
+@font-face {
+	font-family: 'Montserratb';
+	src: url('../fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+	font-family: 'Poppinsreg';
+	src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+	font-family: 'Poppinsmed';
+	src: url('../fonts/Poppins-Medium.ttf');
+}
+@font-face {
+	font-family: 'Poppinssmb';
+	src: url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+	font-family: 'Ralewaysmb';
+	src: url('../fonts/Raleway-SemiBold.ttf');
+}
+@font-face {
+	font-family: 'Ralewayb';
+	src: url('../fonts/Raleway-Bold.ttf');
+}
+body {
+  background-color: #fff;
+  font-family: 'Poppinsreg';
+  font-size: 16px;
+  color: #000;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	color: #bbb;
+}
+h3 {
+	font-family: Segoe Script;
+	font-weight: 400;
+	font-size: 24px;
+	color: #ef5b5b;
+}
+h4 {
+	font-family: 'Montserratsmb';
+	font-size: 28px;
+}
+h5 {
+	font-family: 'Montserratsmb';
+	font-size: 20px;
+}
+h6 {
+	font-family: 'Montserratb';
+	font-size: 28px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.nav-btn, .our-agency-btn {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+.nav-btn a, .our-agency-btn a  {    
+	font-family: 'Montserratb';
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #ffffff;
+	cursor: pointer;
+	background:#ef5b5b;
+	border-radius: 5px;
+	width: 150px;
+	height: 35px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+.wr-promo-btn a, .download-footer-btn a {
+	font-family: 'Montserratb';
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #ffffff;
+	cursor: pointer;
+	background:#ef5b5b;
+	border-radius: 5px;
+	width: 170px;
+	height: 50px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;		
+}
